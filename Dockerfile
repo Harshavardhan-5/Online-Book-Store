@@ -4,9 +4,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     libcairo2 \
     libcairo2-dev \
-    libpango-1.0-0 \
     libpango1.0-dev \
-    libgdk-pixbuf2.0-0 \
     libffi-dev \
     libssl-dev \
     libxml2-dev \
