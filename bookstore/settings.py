@@ -174,3 +174,7 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 CSRF_TRUSTED_ORIGINS = [
     "https://web-production-0c026e.up.railway.app"
 ]
+
+ALLOWED_HOSTS = [
+    "web-production-0c026e.up.railway.app",
+]
