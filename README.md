@@ -1,104 +1,121 @@
 # 📚 Online Book Store Web Application
 
+
 ## 🚀 Summary
 
-- This project is a full-stack web application for online book searching and purchasing.
-- It allows users to browse, filter, and buy books with a smooth user experience.
-- The system includes user features, admin control, and order management with invoice generation.
+- A full-stack web application for online book searching and purchasing.  
+- Users can browse books and add them to the cart.  
+- Manages orders with shipping details and PDF invoice generation.  
+---
 
 ## 🛠️ Technology Stack
 
-- Python (Backend)
-- Django (Web Framework)
-- SQLite (Database)
-- HTML, CSS, JavaScript (Frontend)
-- xhtml2pdf (PDF Generation)
+* 🔹 **Python** – Backend Development
+* 🔹 **Django** – Web Framework
+* 🔹 **HTML, CSS, JavaScript** – Frontend
+* 🔹 **SQLite** – Database
+* 🔹 **xhtml2pdf** – PDF Generation
+
+---
 
 ## ✨ Features
 
 ### 👤 User Features
-- User registration and login
-- Profile management
-- Browse books by category, author, and price
-- Search and filter functionality
-- Add/remove books from cart
 
-### 🛒 Shopping & Order Features
-- Add items to shopping cart
-- Checkout system with shipping form
-- Multiple payment options (e.g., Rocket, Bkash)
-- Order summary before purchase
+* User registration and login
+* Profile management
+* Browse books by category, author, and price
+* Search and filter functionality
 
-### 📦 Order & Invoice System (🔥 Advanced)
-- Shipping address form with validation
-- Order confirmation page with details
-- Automatic PDF invoice generation
-- Downloadable invoice for each order
+### 🛒 Shopping Features
+
+* Add/remove books from cart
+* Smooth checkout process
+* Order summary before purchase
+
+### 💳 Payment & Order
+
+* Shipping address form
+* Multiple payment options (Rocket, Bkash)
+* Order confirmation page
+
+### 📄 Invoice System (Advanced 🔥)
+
+* Automatic PDF invoice generation
+* Downloadable invoice after order
+* Complete order details included
 
 ### 🛠️ Admin Features
-- Admin dashboard
-- Manage books (Add / Update / Delete)
-- Manage users and orders
+
+* Admin dashboard
+* Manage books, users, and orders
+
+---
 
 ## ⚙️ How It Works
 
-- User registers/logs in and browses books.
-- Books can be filtered and added to cart.
-- User fills shipping details and selects payment method.
-- Order is placed successfully.
-- A confirmation page is shown.
-- A PDF invoice is generated for the order.
+1. User registers or logs in
+2. Browses and selects books
+3. Adds books to cart
+4. Fills shipping details
+5. Selects payment method
+6. Order is placed
+7. PDF invoice is generated
+
+---
 
 ## 📦 Installation
 
 1. Go to project folder
 
-```
+```bash id="p1"
 cd Online-Book-Store
 ```
 
 2. Create virtual environment
 
-```
+```bash id="p2"
 python -m venv venv
 ```
 
-3. Activate virtual environment
+3. Activate environment
 
-```
+```bash id="p3"
 venv\Scripts\activate
 ```
 
 4. Install dependencies
 
-```
+```bash id="p4"
 pip install -r requirements.txt
 ```
 
 5. Apply migrations
 
-```
+```bash id="p5"
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-6. Create superuser (optional)
+6. Run server
 
-```
-python manage.py createsuperuser
-```
-
-7. Run the server
-
-```
+```bash id="p6"
 python manage.py runserver
 ```
 
-## 🌐 Open in Browser
+---
 
-```
+## 🌐 Run Project
+
+Open in browser:
+
+```id="p7"
 http://127.0.0.1:8000/
 ```
+
+---
+
+
 
 
 </br>
