@@ -1,11 +1,105 @@
-# Installation 
+# 📚 Online Book Store Web Application
 
+## 🚀 Summary
+
+- This project is a full-stack web application for online book searching and purchasing.
+- It allows users to browse, filter, and buy books with a smooth user experience.
+- The system includes user features, admin control, and order management with invoice generation.
+
+## 🛠️ Technology Stack
+
+- Python (Backend)
+- Django (Web Framework)
+- SQLite (Database)
+- HTML, CSS, JavaScript (Frontend)
+- xhtml2pdf (PDF Generation)
+
+## ✨ Features
+
+### 👤 User Features
+- User registration and login
+- Profile management
+- Browse books by category, author, and price
+- Search and filter functionality
+- Add/remove books from cart
+
+### 🛒 Shopping & Order Features
+- Add items to shopping cart
+- Checkout system with shipping form
+- Multiple payment options (e.g., Rocket, Bkash)
+- Order summary before purchase
+
+### 📦 Order & Invoice System (🔥 Advanced)
+- Shipping address form with validation
+- Order confirmation page with details
+- Automatic PDF invoice generation
+- Downloadable invoice for each order
+
+### 🛠️ Admin Features
+- Admin dashboard
+- Manage books (Add / Update / Delete)
+- Manage users and orders
+
+## ⚙️ How It Works
+
+- User registers/logs in and browses books.
+- Books can be filtered and added to cart.
+- User fills shipping details and selects payment method.
+- Order is placed successfully.
+- A confirmation page is shown.
+- A PDF invoice is generated for the order.
+
+## 📦 Installation
+
+1. Go to project folder
 
 ```
-    pip install django-cors-headers
-    pip install django-crispy-forms
-    pip install xhtml2pdf
+cd Online-Book-Store
 ```
+
+2. Create virtual environment
+
+```
+python -m venv venv
+```
+
+3. Activate virtual environment
+
+```
+venv\Scripts\activate
+```
+
+4. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+5. Apply migrations
+
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+6. Create superuser (optional)
+
+```
+python manage.py createsuperuser
+```
+
+7. Run the server
+
+```
+python manage.py runserver
+```
+
+## 🌐 Open in Browser
+
+```
+http://127.0.0.1:8000/
+```
+
 
 </br>
 
